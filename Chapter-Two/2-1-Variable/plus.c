@@ -4,9 +4,9 @@
 
 #include <stdio.h>
 
-int main(){
-    int a,b;
+int main() {
+    int a, b;
     printf("Please enter two integers:");
-    scanf("%d %d",&a,&b);
-    printf("%d + %d = %d\n",a,b,a+b);
+    scanf("%d %d", &a, &b);
+    printf("%d + %d = %d\n", a, b, a + b);
 }

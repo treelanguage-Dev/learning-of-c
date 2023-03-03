@@ -4,16 +4,16 @@
 
 #include <stdio.h>
 
-int main(){
-    int year ;
-    double money ,total=0,rate=0.03;
+int main() {
+    int year;
+    double money, total = 0, rate = 0.03;
     printf("Please enter your principal:");
-    scanf("%lf",&money);
+    scanf("%lf", &money);
     printf("Please enter the number of years you want save:");
-    scanf("%d",&year);
-    for(int i=1;i<year;i++){
-        total=(1+rate)*money;
-        money=total;
+    scanf("%d", &year);
+    for (int i = 1; i < year; i++) {
+        total = (1 + rate) * money;
+        money = total;
     }
-    printf("After %d year\nyour principle and interest sum si %f\n",year,total);
+    printf("After %d year\nyour principle and interest sum si %f\n", year, total);
 }
