@@ -3,4 +3,4 @@ project(Learning_of_Cpp C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Learning_of_Cpp main.c)
+add_executable(Learning_of_Cpp Chapter-Two/2-2-Representation/interest.c)
