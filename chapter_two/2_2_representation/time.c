@@ -12,5 +12,5 @@ int main() {
     int timeOne = hourOne * 60 + minuteOne;
     int timeTwo = hourTwo * 60 + minuteTwo;
     int time = timeOne + timeTwo;
-    printf("The time difference is %d hours %d minutes", time / 60, time % 60);
+    printf("The time difference is %d hours %d minutes\n", time / 60, time % 60);
 }

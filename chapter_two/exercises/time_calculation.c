@@ -19,5 +19,5 @@ int main(){
     oneSum=hourOne*60+minuteOne;
     TwoSum=hourTwo*60+minuteTwo;
     timeSum=TwoSum-oneSum;
-    printf("The time difference is %d hours and %d minutes",timeSum/60,timeSum%60);
+    printf("The time difference is %d hours and %d minutes\n",timeSum/60,timeSum%60);
 }

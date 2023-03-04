@@ -3,4 +3,4 @@ project(learning_of_c C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Learning_of_Cpp chapter_two/exercises/bcd_decryption.c)
+add_executable(Learning_of_Cpp chapter_three/3_1_judge/time_enhance.c)

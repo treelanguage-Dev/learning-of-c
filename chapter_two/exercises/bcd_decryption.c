@@ -12,5 +12,5 @@ int main(){
     decade=number/16;
     one=number%16;
     newNumber=decade*10+one;
-    printf("Decrypted number is %d",newNumber);
+    printf("Decrypted number is %d\n",newNumber);
 }

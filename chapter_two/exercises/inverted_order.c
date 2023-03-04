@@ -13,5 +13,5 @@ int main(){
     decade=number%100/10;
     one=number%10;
     int newNumber=one*100+decade*10+hundred;
-    printf("The number after reverse order is %d",newNumber);
+    printf("The number after reverse order is %d\n",newNumber);
 }
