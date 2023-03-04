@@ -4,14 +4,14 @@
 
 #include <stdio.h>
 
-int main(){
-    const int MINOR=35;
-    int age=0;
+int main() {
+    const int MINOR = 35;
+    int age = 0;
     printf("Please enter your age:");
-    scanf("%d",&age);
-    if(age<MINOR){
+    scanf("%d", &age);
+    if (age < MINOR) {
         printf("What a wonderful age\n");
-    }else{
+    } else {
         printf("Please cherish the present time\n");
     }
 }

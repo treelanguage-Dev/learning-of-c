@@ -15,5 +15,5 @@ int main() {
         minute = 60 + minute;
         hour--;
     }
-    printf("The time difference is %d hours %d minutes\n", hour,minute);
+    printf("The time difference is %d hours %d minutes\n", hour, minute);
 }

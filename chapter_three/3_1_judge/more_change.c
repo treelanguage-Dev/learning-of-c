@@ -4,15 +4,15 @@
 
 #include <stdio.h>
 
-int main(){
-    int price=0,bill=0;
+int main() {
+    int price = 0, bill = 0;
     printf("Please enter the amount:");
-    scanf("%d",&price);
+    scanf("%d", &price);
     printf("Please enter the face:");
-    scanf("%d",&bill);
-    if(bill>=price){
-    printf("I should give you %d\n",bill-price);
-    } else{
-    printf("You don't have enough money\n");
+    scanf("%d", &bill);
+    if (bill >= price) {
+        printf("I should give you %d\n", bill - price);
+    } else {
+        printf("You don't have enough money\n");
     }
 }

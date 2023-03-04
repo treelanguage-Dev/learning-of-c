@@ -31,6 +31,4 @@ int main() {
     printf("++a=%d\n", ++a);
     //The value of the expression becomes the value after count++
     printf("a=%d\n", a);
-    return 0;
-
 }
