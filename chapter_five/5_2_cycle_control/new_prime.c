@@ -4,19 +4,19 @@
 
 #include <stdio.h>
 
-int main(){
-    int x=9;
+int main() {
+    int x = 9;
     //scanf("%d",&x);
-    int isPrime=1;
-    for(int i=2;i<x;i++){
-        if(x%i==0){
-            isPrime=0;
+    int isPrime = 1;
+    for (int i = 2; i < x; i++) {
+        if (x % i == 0) {
+            isPrime = 0;
             break;
         }
     }
-    if(isPrime==1){
+    if (isPrime == 1) {
         printf("Is a prime number\n");
-    }else{
+    } else {
         printf("Not a prime\n");
     }
     /**
