@@ -5,8 +5,8 @@
 #include <stdio.h>
 
 int main(){
-    // char<short<int<long<long long
-    // int<float<double
+    // char<short<int<long
+    // int<float<double<long double
     // For printf, anything less than int will be converted to int
     // Float will be converted to double
     // scan format

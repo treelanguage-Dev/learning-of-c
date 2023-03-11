@@ -3,4 +3,4 @@ project(learning_of_c C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Learning_of_Cpp chapter_six/6_1_data_type/type_conversion.c)
+add_executable(Learning_of_Cpp chapter_six/6_1_data_type/basic_data_type.c)
