@@ -1,5 +1,5 @@
 //
-// Created by treelanguage-Dev on 3/9/2023.
+// Created by treelang-dev on 3/9/2023.
 //
 
 #include <stdio.h>
